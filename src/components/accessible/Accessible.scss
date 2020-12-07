@@ -1,0 +1,28 @@
+.accessible {
+    display: grid;
+    place-items: center;
+}
+
+.access-comment {
+    justify-content: center;
+    color: white;
+}
+
+.comment-header {
+    font-size: 46px;
+    font-weight: 900;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.comment-p {
+    line-height: 1.6rem;
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 40px;
+}
+
+.button {
+    display: grid;
+    place-items: center;
+}

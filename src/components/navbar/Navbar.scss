@@ -8,3 +8,10 @@
     color: white;
     padding-left: 30px;
 }
+
+@media screen and (max-width: '650px') {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+    }
+}
