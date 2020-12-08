@@ -1,0 +1,64 @@
+.footer {
+    margin-top: 40px;
+    color: white;
+    height: 20rem;
+    background: rgb(12,21,36);
+    padding: 120px 50px 50px 50px;
+}
+
+.footer-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 170px 0 170px;
+}
+
+.footer-about {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-caption {
+    display: flex;
+
+    .spann {
+        margin-right: 30px;
+        padding-top: 10px;
+    }
+}
+
+.footer__contact {
+    font-size: 15px;
+
+    span {
+        padding-left: 14px;
+    }
+}
+
+.footer-about {
+    padding-right: 40px;
+}
+
+#footer_about {
+    margin-right: 60px;
+}
+
+.footer-a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.follow {
+    padding-right: 28px;
+}
+
+.footer2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 170px 0 170px;
+}
+
+.right {
+    text-align: center;
+    padding-top: 100px;
+}

@@ -40,43 +40,47 @@
     margin-left: 15px;
     text-decoration: none;
     border-radius: 50px;
-    width: 45%;
+    width: 25%;
     height: 2rem;
     color: white;
-    padding-top: 8px;
+    padding-top: 14px;
+    font-size: 14px;
     text-align: center;
     background: rgb(82, 222, 247);
 }
 
-@media screen and (max-width: '650px') {
+@media screen and (max-width: '768px') {
     .message {
         width: 100%!important;
         height: 20rem!important;
     }
 
     .btn-nn {
-        margin-top: 10px;
-        width: 100%;
-        height: 2rem;
-        padding-top: 11px;
-        font-size: 15px;
+        width: 60%;
+        height: 1.4rem;
+        padding-top: 16px;
+        font-size: 12px;
+    }
+
+    .message-tittle {
+        font-weight: 500;
+        font-size: 25px;
     }
 
     .message-button {
-        display: grid;
-        place-items: center;
+        display: flex;
+        justify-content: center;
     }
     
     #message-comment {
-        font-size: 16px;
+        font-size: 14px;
         padding: 10px 20px;
     }
 
     #text {
         border-radius: 50px;
-        width: 100%;
+        width: 80%;
         height: 2rem;
-        text-align: center;
         font-size: 12px;
     }
 }
