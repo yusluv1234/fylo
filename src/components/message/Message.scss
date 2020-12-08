@@ -1,0 +1,48 @@
+.message {
+    color: white;
+    margin: auto;
+    width: 50%;
+    height: 15rem;
+    box-shadow: 0px 1px 5px rgb(153, 169, 175);
+    background: #21293C;
+}
+
+.message-titles {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.message-tittle {
+    font-weight: 600;
+    font-size: 35px;
+}
+
+#message-comment {
+    font-size: 20px;
+    padding: 20px 40px;
+}
+
+.message-button {
+    justify-content: center;
+    display: flex;
+}
+
+#text {
+    border-radius: 50px;
+    width: 40%;
+    height: 2rem;
+    text-align: center;
+    font-size: 16px;
+}
+
+.btn-nn {
+    margin-left: 15px;
+    text-decoration: none;
+    border-radius: 50px;
+    width: 30%;
+    height: 2rem;
+    color: white;
+    padding-top: 5px;
+    text-align: center;
+    background: rgb(82, 222, 247);
+}
