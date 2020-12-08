@@ -1,4 +1,5 @@
 import React from 'react';
+import AboutProfile from '../about-profile/AboutProfile';
 import Accessible from '../accessible/Accessible';
 import Captions from '../captions/Captions';
 import Navbar from '../navbar/Navbar';
@@ -13,6 +14,7 @@ const HomePage = () => {
             <Accessible />
             <Captions />
             <Productive />
+            <AboutProfile />
         </div>
     )
 }
