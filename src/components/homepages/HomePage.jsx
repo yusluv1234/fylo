@@ -2,6 +2,7 @@ import React from 'react';
 import Accessible from '../accessible/Accessible';
 import Captions from '../captions/Captions';
 import Navbar from '../navbar/Navbar';
+import Productive from '../productive/Productive';
 
 import './HomePage.scss';
 
@@ -11,6 +12,7 @@ const HomePage = () => {
             <Navbar />
             <Accessible />
             <Captions />
+            <Productive />
         </div>
     )
 }

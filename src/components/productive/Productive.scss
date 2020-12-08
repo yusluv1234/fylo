@@ -1,0 +1,42 @@
+.productive {
+    display: flex;
+    justify-content: center;
+}
+
+.productive-comment {
+    color: white;
+    display: grid;
+    place-items: center;
+}
+
+.comment-nav {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.works {
+    color: rgb(53, 193, 228);
+    border-bottom: 2px solid rgb(53, 193, 228);
+}
+
+@media screen and (max-width: '650px') {
+    .productive {
+        display: grid;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .comment-nav {
+        font-size: 27px;
+        font-weight: 700;
+    }
+
+    .comment-text {
+        font-size: 15px;
+    }
+
+    .comment-text2 {
+        font-size: 15px;
+        padding-top: 10px;
+    }
+}
