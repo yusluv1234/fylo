@@ -9,7 +9,11 @@
 .footer-header {
     display: flex;
     justify-content: space-between;
-    padding: 40px 170px 0 170px;
+    padding: 40px 0 0 0;
+}
+
+.spann2 {
+    font-size: 14px;
 }
 
 .footer-about {
@@ -55,10 +59,29 @@
 .footer2 {
     display: flex;
     justify-content: space-between;
-    padding: 40px 170px 0 170px;
+    padding: 40px 0 0 0;
 }
 
 .right {
     text-align: center;
     padding-top: 100px;
+}
+
+@media screen and (max-width: '650px') {
+    .footer-header {
+        display: flex;
+        justify-content: space-between;
+        padding: 40px 0 0 0;
+    }
+
+    .footer2 {
+        display: flex;
+        justify-content: space-between;
+        padding: 40px 0 0 0;
+    }.right {
+        text-align: center;
+        padding-top: 40px;
+    }
+
+
 }
