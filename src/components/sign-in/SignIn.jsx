@@ -1,14 +1,24 @@
 import React from 'react';
 
-const SignIn = () => {
+const SignIn = () =>{
+    const handleSubmit = (event) => {
+        const formData = new FormData(event.target);
+        event.preventDefault();
+        for (let [key, value] of formData.entries()) {
+            console.log(key, value);
+        }
+    }
+
     return (
-        <div className='sign-in'>
-            <div className='sign-in-message'>
-                Welcome to Fylo sign in to continue 
-                <span>don't have an account please <a href="/sign-up" alt='sign-up'>SignUp</a></span>
-            </div>
+        <div>
+        <form onSubmit={handleSubmit}>
+        <input type="text" name="username" placeholder="Email" />
+        <input type="password" name="password"
+        placeholder="Password" />
+        <button type="submit">Login</button>
+        </form>
         </div>
-    )
-}
+        )
+        }
 
 export default SignIn;
