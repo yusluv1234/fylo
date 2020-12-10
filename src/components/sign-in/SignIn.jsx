@@ -10,7 +10,7 @@ const SignIn = () =>{
     }
 
     return (
-        <div>
+        <div className='sign-in'>
         <form onSubmit={handleSubmit}>
         <input type="text" name="username" placeholder="Email" />
         <input type="password" name="password"
