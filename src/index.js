@@ -1,9 +1,9 @@
 import React from 'react';
+// import store from './components/redux/store';
 import ReactDOM from 'react-dom';import App from './App';
+// import { Provider } from 'react-redux';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+    <App />,
   document.getElementById('root')
 );
