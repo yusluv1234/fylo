@@ -28,18 +28,6 @@ body {
   display: grid;
   place-content: center;
 }
-.btn {
-  border-radius: 50px;
-  background: rgb(36, 221, 235);
-  color: var(--light);
-  width: 50%;
-  height: 3rem;
-  text-decoration: none;
-  font-size: 20px;
-  border: 0;
-  display: grid;
-  place-content: center;
-}
 
 img {
   max-width: 100%;
